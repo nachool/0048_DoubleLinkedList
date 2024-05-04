@@ -88,6 +88,22 @@ void deleteNode()
     cout << "\nEnter the roll number of the student whose record is to be deleted: ";
     cin >> rollNo;
 
+    if (START == NULL)
+    {
+        cout << "List is emty" << endl;
+        return;
+    }
+
+    current = START;
+    previous = NULL;
+
+    while (current != NULL && current->noMhs != rollNo)
+    {
+        previous = current;
+        current = current->next;
+    }
+
+
 }
 
 int main()
