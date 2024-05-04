@@ -196,7 +196,7 @@ int main()
     try
     {
         cout << "\nMenu" << endl;
-        cout << "1. Add a record tu the list" << endl;
+        cout << "1. Add a record to the list" << endl;
         cout << "2. delete a record from the list" << endl;
         cout << "3. View all records in the ascending order of roll numbers" << endl;
         cout << "4. View all records in the descending order of roll numbers" << endl;
@@ -237,5 +237,5 @@ int main()
     }
 }
 
-}
+
 
